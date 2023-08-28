@@ -1,0 +1,64 @@
+body{
+    background-image: url(gambar/yas.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: SofiaPro;
+}
+
+/*font eksternal*/
+@font-face {
+    font-family: BluuNext;
+    src: url(font/BluuNext-Titling.otf);
+}
+
+@font-face {
+    font-family: HarryPotter;
+    src: url(font/HARRYP__.TTF);
+}
+
+@font-face {
+    font-family: SofiaPro;
+    src: url(font/sofiapro-light.otf);
+}
+/**/
+
+.harpot{
+    margin-top: 190px;
+}
+
+.harpot h1{
+    font-family: BluuNext;
+    font-size: 60px;
+}
+
+.harpot p{
+    font-size: 20px;
+    width: 70%;
+}
+
+button{
+    margin-top: 10px;
+}
+
+/* table */
+@media (max-width:991px) {
+    .harpot{
+        margin-bottom: 100px;
+        margin-top: 120px;
+    }
+}
+
+/* handphone */
+@media (max-width:576px) {
+    .harpot{
+        margin-top: 80px;
+    }
+
+    .harpot h1{
+        font-size: 40px;
+    }
+
+    .harpot p{
+        font-size: 17px;
+    }
+}

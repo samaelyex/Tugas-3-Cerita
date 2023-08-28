@@ -1,0 +1,97 @@
+body{
+    background-image: url(../gambar/yat.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: SofiaPro;
+}
+
+/*font eksternal*/
+@font-face {
+    font-family: BluuNext;
+    src: url(../font/BluuNext-Titling.otf);
+}
+
+@font-face {
+    font-family: HarryPotter;
+    src: url(../font/HARRYP__.TTF);
+}
+
+@font-face {
+    font-family: SofiaPro;
+    src: url(../font/sofiapro-light.otf);
+}
+/**/
+
+.harry{
+    font-family: HarryPotter;
+}
+
+.harpot1{
+    margin-bottom: 90px;
+    margin-top: 20px;
+}
+
+.harpot1 h2{
+    font-family:BluuNext;
+    margin-left: 6px;
+}
+
+.harpot1 p{
+    width: 90%;
+    margin-left: 6px;
+    font-size: 20px;
+}
+
+.harpot1 img{
+    margin-left: 6px;
+    width: 40%;
+}
+
+.harpot1 img:hover{
+    width: 50%;
+    transition:5s ease;
+}
+
+/* Media query */
+
+/* table */
+@media (max-width:991px) {
+    .harpot1 h2{
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .harpot1 img{
+        align-items: center;
+        display: block;
+        margin: auto;
+    }
+
+    .harpot1 p{
+        display: block;
+        text-align: center;
+        margin: auto;
+        margin-top: 20px;
+    }
+}
+
+/* handphone */
+@media (max-width:576px) {
+    .harpot1 h2{
+        text-align: center;
+        width: 60%;
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 22px;
+    }
+    
+    .harpot1 p{
+        font-size: 15px;
+        text-align: center;
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+    }
+}

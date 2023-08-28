@@ -1,0 +1,69 @@
+body{
+    background-image: url(../gambar/yaw.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: SofiaPro;
+}
+
+/*font eksternal*/
+@font-face {
+    font-family: BluuNext;
+    src: url(../font/BluuNext-Titling.otf);
+}
+
+@font-face {
+    font-family: HarryPotter;
+    src: url(../font/HARRYP__.TTF);
+}
+
+@font-face {
+    font-family: SofiaPro;
+    src: url(../font/sofiapro-light.otf);
+}
+/**/
+
+.harry{
+    font-family: HarryPotter;
+}
+
+.harpot1{
+    margin-top: 110px;
+}
+
+.harpot1 img{
+    width: 40%;
+}
+
+.harpot1 h2{
+    font-family:BluuNext;
+}
+
+.harpot1 p{
+    width: 70%;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.harpot1 img:hover{
+    width: 50%;
+    transition:5s ease;
+}
+
+/* Media query */
+
+/* handphone */
+@media (max-width:576px) {
+    .harpot1 h2{
+        text-align: center;
+        width: 60%;
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 22px;
+    }
+    
+    .harpot1 p{
+        font-size: 15px;
+    }
+}

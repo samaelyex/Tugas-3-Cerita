@@ -1,0 +1,122 @@
+body{
+    background-image: url(../gambar/yao.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: SofiaPro;
+}
+
+/*font eksternal*/
+@font-face {
+    font-family: BluuNext;
+    src: url(../font/BluuNext-Titling.otf);
+}
+
+@font-face {
+    font-family: HarryPotter;
+    src: url(../font/HARRYP__.TTF);
+}
+
+@font-face {
+    font-family: SofiaPro;
+    src: url(../font/sofiapro-light.otf);
+}
+/**/
+
+.harry{
+    font-family: HarryPotter;
+    font-size: 35px;
+
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 155px;
+    font-weight: 400;
+    height: 100%;
+    z-index: 1000;
+}
+
+.harpot1 h2{
+    font-family:BluuNext;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.harpot1 img{
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 40%;
+}
+
+.harpot1 p{
+    font-size: 20px;
+    width: 85%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.navbar-nav{
+    margin-bottom: 10px;
+} 
+
+.nav-item {
+    padding: 5px 0;
+    margin-left: 1.5rem;
+}
+
+.harpot1 img:hover{
+    width: 50%;
+    transition:5s ease;
+}
+
+/* Media query */
+
+/* table */
+@media (max-width:991px) {
+    .navbar{
+        width: 90px;
+    }
+
+    .harry{
+        font-size: 20px;
+    }
+
+    .nav-item{
+        font-size: 16px;
+        margin-left: 0.5rem;
+    }
+
+    .navbar-toggler-icon{
+        width: 20px;
+    }
+}
+
+/* handphone */
+@media (max-width:576px) {
+    .navbar{
+        width: 55px;
+    }
+
+    .nav-item{
+        font-size: 65%;
+        margin-left: 2px;
+    }
+
+    .navbar-toggler-icon{
+        width: 20px;
+    }
+
+    .harpot1 p{
+        width:80%;
+        font-size: 15px;
+    }
+
+    .harpot1 h2{
+        font-size: 22px;
+        width: 60%;
+    }
+}
+
+
